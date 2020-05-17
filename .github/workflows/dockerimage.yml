@@ -15,5 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-    - run: docker build . --file Dockerfile --tag standardversion:buildcandidate
-    - run: docker run standardversion:buildcandidate --version # ensure standard-version executes
+      run: docker build . --file Dockerfile --tag standardversion:buildcandidate
+    - name: Ensure Standard Version can execute
+      run: docker run standardversion:buildcandidate --version

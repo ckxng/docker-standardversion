@@ -1,0 +1,20 @@
+{
+    "name": "docker-standardversion",
+    "version": "0.0.1",
+    "description": "Docker wrapper around conventional-changelog/standard-version",
+    "author": "Cameron King <cameronking.me>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ckxng/docker-standardversion.git"
+    },
+    "bugs": {
+        "type": "git",
+        "url": "https://github.com/ckxng/docker-standardversion/issues"
+    },
+    "homepage": "https://github.com/ckxng/docker-standardversion",
+    "dependencies": {
+        "standard-version": "^8.0.0"
+    },
+    "keywords": ["docker", "standard-version", "stdver", "conventional-commits"]
+}

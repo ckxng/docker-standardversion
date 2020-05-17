@@ -7,4 +7,4 @@ RUN cd /home/node && \
     git config --global user.email "automated" && \
     git config --global user.name "Standard Version"
 WORKDIR /repo
-ENTRYPOINT standard-version
+ENTRYPOINT ["standard-version"]

@@ -73,7 +73,7 @@ For example, when promoting a repo from 0.y.z to 1.0.0, you can trigger such a c
     docker run -v $(pwd):/repo ckxng/standardversion --skip.commit --skip.tag --release-as major
     vi CHANGELOG.md # make whatever updates you would like to the changelog
     git add .
-    git commit -m 'doc: update release changelog [skip ci]'
+    git commit -m 'chore(release): 1.0.0 [skip ci]'
     git tag v1.0.0
     git push --follow-tags origin master
 

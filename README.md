@@ -1,3 +1,5 @@
+![Docker Image CI](https://github.com/ckxng/docker-standardversion/workflows/Docker%20Image%20CI/badge.svg)[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ckxng/standardversion)](https://hub.docker.com/r/ckxng/standardversion)
+
 # docker-standardversion
 
 Docker wrapper around [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version).

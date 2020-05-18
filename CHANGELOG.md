@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 1.0.1 (2020-05-18)
 
+### Bug Fixes
+
+* correct error in skip ci syntax in actions example
+
 ## [1.0.0](https://github.com/ckxng/docker-standardversion/compare/v0.0.3...v1.0.0) (2020-05-18)
 
 ### Features

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.3 (2020-05-18)
+
+
+### Bug Fixes
+
+* update documentation and examples ([45eb3d1](https://github.com/ckxng/docker-standardversion/commit/45eb3d1a2709a892655cc3e7d1b67b8d9ad4aa0c))
+
 ### 0.0.2 (2020-05-18)
 
 * [ci] Add version updating to GitHub actions on master branch

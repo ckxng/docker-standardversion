@@ -43,7 +43,7 @@ If you do not have a `package.json` file, or if your repository URLs are nonstan
       "packageFiles": [
         {
           "filename": "metadata.json",
-          "type": "plain-text"
+          "type": "json"
         }
       ],
       "bumpFiles": [

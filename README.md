@@ -64,6 +64,23 @@ See the [Conventional Changelog Spec](https://github.com/conventional-changelog/
 
 See `.github/workflows/version.yml` for an example of using this container from within a GitHub action.
 
+# Manual Releases
+
+If you are using `.github/workflows/version.yml` or similar (where [skip ci] is recognized), you can manually perform some release actions, in cases where the defaults result in undesireable behaviors.
+
+For example, when promoting a repo from 0.y.z to 1.0.0, you can trigger such a change by adding "BREAKING CHANGE:" to your commit, but doing so would introduce a misleading note into your changelog.  Perhaps you would even like to make some additional notes in the changelog explaining the newly released features.
+
+    docker run -v $(pwd):/repo ckxng/standardversion --skip.commit --skip.tag --release-as major
+    vi CHANGELOG.md # make whatever updates you would like to the changelog
+    git add .
+    git commit -m 'doc: update release changelog [skip ci]'
+    git tag v1.0.0
+    git push --follow-tags origin master
+
+# Using [skip ci] in this repo
+
+If a change is made which consists entirely of non-functional updates (such as documentation), append `[skip ci]` to the pull request commit or the push to master.  This will prevent the repo from executing the steps in the GitHub actions which generate a new version.  This prevents GitHub and Docker Hub from getting cluttered with versions that do not actually contain code changes.  If the documentation updates are significant, a bullet point can be added to the existing release in the changelog.
+
 # Copying
 
 See LICENSE for details.

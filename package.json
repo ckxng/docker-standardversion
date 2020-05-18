@@ -1,6 +1,6 @@
 {
     "name": "docker-standardversion",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Docker wrapper around conventional-changelog/standard-version",
     "author": "Cameron King <cameronking.me>",
     "license": "MIT",
@@ -16,5 +16,10 @@
     "dependencies": {
         "standard-version": "^8.0.0"
     },
-    "keywords": ["docker", "standard-version", "stdver", "conventional-commits"]
+    "keywords": [
+        "docker",
+        "standard-version",
+        "stdver",
+        "conventional-commits"
+    ]
 }

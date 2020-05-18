@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.2 (2020-05-18)
 
-* [ci] Add version building to GitHub actions
+* [ci] Add version updating to GitHub actions on master branch
+* [ci] Add Docker building to GitHub actions on all branches
 
 ### 0.0.1 (2020-05-18)
 

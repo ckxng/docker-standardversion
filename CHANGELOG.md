@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/ckxng/docker-standardversion/compare/v0.0.3...v1.0.0) (2020-05-18)
+
+### Features
+
+* Run [standard-version](https://github.com/conventional-changelog/standard-version) from within a Docker container
+* Provide parameters to standard-version using Docker entrypoint
+* Implement GitHub Actions to dogfood the tool and serve as an example
+
 ### 0.0.3 (2020-05-18)
 
 

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/ckxng/docker-standardversion/compare/v1.0.1...v1.0.2) (2020-08-24)
+
+
+### Bug Fixes
+
+* security updates ([d1c3940](https://github.com/ckxng/docker-standardversion/commit/d1c3940be16748bebede1df909faad596d19f0bf))
+
 ### 1.0.1 (2020-05-18)
 
 ### Bug Fixes

@@ -14,7 +14,7 @@
     },
     "homepage": "https://github.com/ckxng/docker-standardversion",
     "dependencies": {
-        "standard-version": "^8.0.0"
+        "standard-version": "^9.0.0"
     },
     "keywords": [
         "docker",

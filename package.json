@@ -1,6 +1,6 @@
 {
     "name": "docker-standardversion",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Docker wrapper around conventional-changelog/standard-version",
     "author": "Cameron King <cameronking.me>",
     "license": "MIT",
